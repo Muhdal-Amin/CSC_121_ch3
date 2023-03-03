@@ -1,4 +1,4 @@
-# GroupA_CSC121_Assignment
+# CSC_121
 C - How to program 8th edition by Paul Deitel and Harvey Deitel. Chapter 3, Exercises 3.8, 3.17, 3.18, 3.19, 3.20
 
 # Exercise 3.17 - Class Average Calculator
