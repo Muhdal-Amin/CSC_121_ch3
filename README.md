@@ -1,5 +1,8 @@
 # GroupA_CSC121_Assignment
-C - How to program 8th edition by Paul Deitel and Harvey Deitel. Chapter 3, Exercises 3.17, 3.18, 3.19, 3.20
+C - How to program 8th edition by Paul Deitel and Harvey Deitel. Chapter 3, Exercises 3.8, 3.17, 3.18, 3.19, 3.20
+
+# Exercise 3.17 - Class Average Calculator
+A class of students took a quiz. The grades (integers in the range of 0 to 100) for this quiz are made available to you. Develop a C program that will process an arbitrary number of grades and calculate the class average each time the program is run.
 
 # Exercise 3.17 - Mortgage Calculator
 Develop a C program to calculate the interest accrued on a bank customer's mortgage. For each customer, the following facts are available: a) the account number b) the mortgage amount c) the mortgage term d) the interest rate The program should input each fact, calculate the total interest payable ( = mortgage amount × interest rate × mortgage term), and add it to the mortgage amount to get the total amount payable. It should calculate the required monthly payment by dividing the total amount payable by the number of months in the mortgage term. The program should display the required monthly payment rounded off to the nearest dollar. The program should process each customer's account at a time.
