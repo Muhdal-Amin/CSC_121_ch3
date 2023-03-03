@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-// function main begings program execution
+// function main begins program execution
 int main(void) {
 
 	unsigned int counter; // number of grades entered
