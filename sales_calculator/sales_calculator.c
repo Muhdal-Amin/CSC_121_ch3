@@ -7,27 +7,32 @@
 // Function main - Code entry point
 int main(void) {
 
-	// variable declaration
-	float gross_sales;
-	float salary;
-	float percent_sales;
+  // variable declaration
+  float gross_sales, salary, percent_sales = 0;
+  int program = 1;
+  
+  // processing phase
+  // Sentinel conrolled loop
+  while (true) {
 
-	// processing phase
-	while (true) {
+    printf("Sales program #%d\n", program++);
+    printf("%s", "Enter sales in dollars (-1 to end): $");
+    scanf("%f", &gross_sales);
 
-		printf("%s", "Enter sales in dollars (-1 to end): ");
-		scanf("%f", &gross_sales);
+    if (gross_sales == -1) { // Jumps out of loop once user inputs sentinel value
 
-		if (gross_sales == -1) {
-			return (0);
-		} // end if
+      return (0);
 
-		// calculation phase
-		percent_sales = 0.09 * gross_sales;
-		salary = 200 + percent_sales;
+    } // end if
 
-		printf("Salary is: $%.2f\n\n", salary);
-	} // end while
+    // calculation phase
+    percent_sales = 0.09 * gross_sales;
+    salary = 200 + percent_sales;
 
-	return (0);
-}
+    printf("Salary is: $%.2f\n\n", salary);
+
+  } // end while
+
+  return (0);
+
+}// End function main
