@@ -10,11 +10,13 @@ int main(void) {
 	// variables declaration
 	float interest_rate, principal, interest_charge;
 	int loan_terms;
+	int list = 1;
 
 	// processing phase
 	// take input from user
 	while(true) {
 
+	        printf("Interest Program #%d:\n", list++);
 		printf("%s", "Enter the loan principal (-1 to end): ");
 		scanf("%f", &principal);
 

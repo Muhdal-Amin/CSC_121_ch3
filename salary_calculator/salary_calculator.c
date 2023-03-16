@@ -9,13 +9,14 @@ int main(void) {
 
 	//  variable declaration
 	int hours_worked;
-	float hourly_rate;
-	float salary;
+	float hourly_rate, salary;
+	int list = 1;
 
 	// processing phase
 	// take input from user
 	while (true) {
 
+	        printf("Employee #%d:\n", list++);
 		printf("%s", "Enter # of hours worked (-1 to end): ");
 		scanf("%d", &hours_worked);
 

@@ -8,7 +8,8 @@
 int main(void) {
 
 	// declaring variables
-	int account_num, mortgage_amt, mortgage_terms, month;
+        int account_num, mortgage_amt, mortgage_terms, month;
+	int list = 1;
 	float interest_rate, interest_payable, total_amt, monthly_payable;
 
 	// processing phase
@@ -16,6 +17,7 @@ int main(void) {
 
 	while(true) {
 
+	printf("Enter Customer #%d's details:\n", list++);
 	printf("%s", "Enter account number, -1 to end: "); // prompt user for input
 	scanf("%d", &account_num); // read account number from user
 
@@ -23,7 +25,7 @@ int main(void) {
 		return (0);
 	}
 
-	printf("%s", "Enter mortgage amount (in dollars): ");
+	printf("%s", "Enter mortgage amount (in dollars): $");
 	scanf("%d", &mortgage_amt);
 
 	printf("%s", "Enter mortgage term (in years): ");
